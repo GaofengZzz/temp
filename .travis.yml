@@ -8,6 +8,5 @@ install:
 
 script:
     ./test.sh
-script:
     sudo service docker restart
     sudo docker version
