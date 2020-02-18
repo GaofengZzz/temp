@@ -1,8 +1,13 @@
-language: bash
+language: shell
+os: linux
 dist: bionic
 
 install:
     - sudo apt-get -y install lsb-core
+    - sudo apt-get -y install docker.io
 
 script:
-    ./test.sh
+
+    - ./test.sh
+    - sudo systemctl unmask docker.service && sudo systemctl unmask docker.socket && sudo systemctl start docker.service
+    - sudo docker version

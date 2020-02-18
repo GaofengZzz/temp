@@ -1,5 +1,5 @@
 #!/bin/bash
 
-env
+#env
 
 lsb_release -a
