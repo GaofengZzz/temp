@@ -7,6 +7,6 @@ install:
     - sudo apt-get -y install docker.io
 
 script:
-    ./test.sh
-    sudo service docker restart
-    sudo docker version
+    - ./test.sh
+    - sudo service docker restart
+    - sudo docker version
