@@ -3,6 +3,9 @@ dist: bionic
 
 install:
     - sudo apt-get -y install lsb-core
+    - sudo apt-get -y install docker.io
 
 script:
     ./test.sh
+script2:
+    docker version
