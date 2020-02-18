@@ -1,4 +1,5 @@
-language: bash
+language: shell
+os: linux
 dist: bionic
 
 install:
@@ -7,5 +8,5 @@ install:
 
 script:
     ./test.sh
-script2:
-    sudo docker version
+script:
+    sudo service docker status
