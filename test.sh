@@ -1,5 +1,6 @@
 #!/bin/bash
 
-#env
+env
 
-pwd
+echo "pwd is $PWD"
+echo "home is $HOME"
