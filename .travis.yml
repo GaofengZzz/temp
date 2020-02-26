@@ -1,4 +1,4 @@
-language: shell
+language: generic
 os: linux
 dist: bionic
 
