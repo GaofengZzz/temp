@@ -2,4 +2,4 @@
 
 #env
 
-lsb_release -a
+pwd
